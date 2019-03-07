@@ -18,7 +18,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            This class provides access to Intel SSE hardware instructions via intrinsics
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,7 +50,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_add_ps (__m128 a,  __m128 b)
+              ADDPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -79,7 +84,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_add_ss (__m128 a,  __m128 b)
+              ADDSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,7 +118,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_and_ps (__m128 a, __m128 b)
+              ANDPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,7 +152,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_andnot_ps (__m128 a, __m128 b)
+              ANDNPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +186,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpeq_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(0)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,7 +220,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comieq_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,7 +254,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpeq_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(0)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -265,7 +288,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomieq_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -296,7 +322,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpgt_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(6)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,7 +356,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comigt_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -358,7 +390,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpge_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(5)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,7 +424,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comige_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,7 +458,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpge_ss (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m32, imm8(5)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -451,7 +492,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomige_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -482,7 +526,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpgt_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(6)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -513,7 +560,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomigt_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -544,7 +594,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmplt_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(1)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -575,7 +628,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comilt_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -606,7 +662,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmple_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(2)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -637,7 +696,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comile_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -668,7 +730,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmple_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(2)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -699,7 +764,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomile_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -730,7 +798,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmplt_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(1)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -761,7 +832,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomilt_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -792,7 +866,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpneq_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(4)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -823,7 +900,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_comineq_ss (__m128 a, __m128 b)
+              COMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -854,7 +934,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpneq_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(4)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -885,7 +968,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_ucomineq_ss (__m128 a, __m128 b)
+              UCOMISS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -916,7 +1002,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpngt_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(2)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -947,7 +1036,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnge_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(1)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -978,7 +1070,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnge_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(1)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1009,7 +1104,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpngt_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(2)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1040,7 +1138,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnlt_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(5)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1071,7 +1172,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnle_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(6)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1102,7 +1206,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnle_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(6)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1133,7 +1240,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpnlt_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(5)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1164,7 +1274,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpord_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(7)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1195,7 +1308,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpord_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(7)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1226,7 +1342,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpunord_ps (__m128 a,  __m128 b)
+              CMPPS xmm, xmm/m128, imm8(3)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1257,7 +1376,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cmpunord_ss (__m128 a,  __m128 b)
+              CMPSS xmm, xmm/m32, imm8(3)
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1288,34 +1410,10 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertScalarToVector128Single">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ConvertScalarToVector128Single (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, long value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ConvertScalarToVector128Single(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, int64 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertScalarToVector128Single(System.Runtime.Intrinsics.Vector128{System.Single},System.Int64)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Single (upper As Vector128(Of Single), value As Long) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; ConvertScalarToVector128Single(System::Runtime::Intrinsics::Vector128&lt;float&gt; upper, long value);" />
-      <MemberSignature Language="F#" Value="static member ConvertScalarToVector128Single : System.Runtime.Intrinsics.Vector128&lt;single&gt; * int64 -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertScalarToVector128Single (upper, value)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="upper" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-        <Parameter Name="value" Type="System.Int64" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="upper">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_cvtsi32_ss (__m128 a, int b)
+              CVTSI2SS xmm, reg/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1344,7 +1442,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_cvtss_si32 (__m128 a)
+              CVTSS2SI r32, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1373,82 +1474,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64 (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt64(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector128(Of Single)) As Long" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static long ConvertToInt64(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToInt64 : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; int64" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToInt64 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToInt64WithTruncation">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64WithTruncation(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt64WithTruncation(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64WithTruncation (value As Vector128(Of Single)) As Long" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static long ConvertToInt64WithTruncation(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToInt64WithTruncation : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; int64" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToInt64WithTruncation value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToSingle">
-      <MemberSignature Language="C#" Value="public static float ConvertToSingle (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ConvertToSingle(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToSingle(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToSingle (value As Vector128(Of Single)) As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static float ConvertToSingle(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToSingle : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; single" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToSingle value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Single</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_cvttss_si32 (__m128 a)
+              CVTTSS2SI r32, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1479,7 +1508,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_div_ps (__m128 a,  __m128 b)
+              DIVPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1510,7 +1542,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_div_ss (__m128 a,  __m128 b)
+              DIVSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1563,7 +1598,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_load_ps (float const* mem_address)
+              MOVAPS xmm, m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1593,7 +1631,10 @@
       <Docs>
         <param name="lower">To be added.</param>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_loadh_pi (__m128 a, __m64 const* mem_addr)
+              MOVHPS xmm, m64
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1623,7 +1664,10 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_loadl_pi (__m128 a, __m64 const* mem_addr)
+              MOVLPS xmm, m64
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1651,7 +1695,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_load_ss (float const* mem_address)
+              MOVSS xmm, m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1679,7 +1726,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_loadu_ps (float const* mem_address)
+              MOVUPS xmm, m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1710,7 +1760,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_max_ps (__m128 a,  __m128 b)
+              MAXPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1741,7 +1794,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_max_ss (__m128 a,  __m128 b)
+              MAXSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1772,7 +1828,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_min_ps (__m128 a,  __m128 b)
+              MINPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1803,7 +1862,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_min_ss (__m128 a,  __m128 b)
+              MINSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1834,7 +1896,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_movehl_ps (__m128 a,  __m128 b)
+              MOVHLPS xmm, xmm
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1865,7 +1930,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_movelh_ps (__m128 a,  __m128 b)
+              MOVLHPS xmm, xmm
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1894,7 +1962,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            int _mm_movemask_ps (__m128 a)
+              MOVMSKPS reg, xmm
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1925,7 +1996,10 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_move_ss (__m128 a, __m128 b)
+              MOVSS xmm, xmm
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1956,7 +2030,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_mul_ps (__m128 a, __m128 b)
+              MULPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1987,7 +2064,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_mul_ss (__m128 a, __m128 b)
+              MULPS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2018,7 +2098,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_or_ps (__m128 a,  __m128 b)
+              ORPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2046,7 +2129,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_prefetch(char* p, int i)
+              PREFETCHT0 m8
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2073,7 +2159,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_prefetch(char* p, int i)
+              PREFETCHT1 m8
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2100,7 +2189,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_prefetch(char* p, int i)
+              PREFETCHT2 m8
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2127,7 +2219,10 @@
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_prefetch(char* p, int i)
+              PREFETCHNTA m8
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2155,7 +2250,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rcp_ps (__m128 a)
+              RCPPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2184,7 +2282,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rcp_ss (__m128 a)
+              RCPSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2215,7 +2316,11 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rcp_ss (__m128 a, __m128 b)
+              RCPSS xmm, xmm/m32
+            The above native signature does not exist. We provide this additional overload for consistency with the other scalar APIs.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2244,7 +2349,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rsqrt_ps (__m128 a)
+              RSQRTPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2273,7 +2381,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rsqrt_ss (__m128 a)
+              RSQRTSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2304,110 +2415,11 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetAllVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetAllVector128 (float value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetAllVector128(float32 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetAllVector128(System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetAllVector128 (value As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetAllVector128(float value);" />
-      <MemberSignature Language="F#" Value="static member SetAllVector128 : single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetAllVector128 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Single" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetScalarVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetScalarVector128 (float value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetScalarVector128(float32 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetScalarVector128(System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetScalarVector128 (value As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetScalarVector128(float value);" />
-      <MemberSignature Language="F#" Value="static member SetScalarVector128 : single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetScalarVector128 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Single" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetVector128 (float e3, float e2, float e1, float e0);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetVector128(float32 e3, float32 e2, float32 e1, float32 e0) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetVector128(System.Single,System.Single,System.Single,System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetVector128 (e3 As Single, e2 As Single, e1 As Single, e0 As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetVector128(float e3, float e2, float e1, float e0);" />
-      <MemberSignature Language="F#" Value="static member SetVector128 : single * single * single * single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetVector128 (e3, e2, e1, e0)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e3" Type="System.Single" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-        <Parameter Name="e2" Type="System.Single" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-        <Parameter Name="e1" Type="System.Single" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-        <Parameter Name="e0" Type="System.Single" Index="3" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <param name="e3">To be added.</param>
-        <param name="e2">To be added.</param>
-        <param name="e1">To be added.</param>
-        <param name="e0">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetZeroVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetZeroVector128 ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetZeroVector128() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetZeroVector128" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetZeroVector128 () As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetZeroVector128();" />
-      <MemberSignature Language="F#" Value="static member SetZeroVector128 : unit -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetZeroVector128 " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_rsqrt_ss (__m128 a, __m128 b)
+              RSQRTSS xmm, xmm/m32
+            The above native signature does not exist. We provide this additional overload for consistency with the other scalar APIs.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2440,7 +2452,10 @@
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
         <param name="control">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_shuffle_ps (__m128 a,  __m128 b, unsigned int control)
+              SHUFPS xmm, xmm/m128, imm8
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2469,7 +2484,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_sqrt_ps (__m128 a)
+              SQRTPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2498,7 +2516,10 @@
       </Parameters>
       <Docs>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_sqrt_ss (__m128 a)
+              SQRTSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2529,50 +2550,11 @@
       <Docs>
         <param name="upper">To be added.</param>
         <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="StaticCast&lt;T,U&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;U&gt; StaticCast&lt;T,U&gt; (System.Runtime.Intrinsics.Vector128&lt;T&gt; value) where T : struct where U : struct;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!U&gt; StaticCast&lt;struct .ctor (class System.ValueType) T, struct .ctor (class System.ValueType) U&gt;(valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!T&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StaticCast``2(System.Runtime.Intrinsics.Vector128{``0})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StaticCast(Of T As Structure, U As Structure) (value As Vector128(Of T)) As Vector128(Of U)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename U&gt;&#xA; where T : value class where U : value class static System::Runtime::Intrinsics::Vector128&lt;U&gt; StaticCast(System::Runtime::Intrinsics::Vector128&lt;T&gt; value);" />
-      <MemberSignature Language="F#" Value="static member StaticCast : System.Runtime.Intrinsics.Vector128&lt;'T (requires 'T : struct)&gt; -&gt; System.Runtime.Intrinsics.Vector128&lt;'U (requires 'U : struct)&gt; (requires 'T : struct and 'U : struct)" Usage="System.Runtime.Intrinsics.X86.Sse.StaticCast value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;U&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="T">
-          <Constraints>
-            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
-            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
-            <BaseTypeName>System.ValueType</BaseTypeName>
-          </Constraints>
-        </TypeParameter>
-        <TypeParameter Name="U">
-          <Constraints>
-            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
-            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
-            <BaseTypeName>System.ValueType</BaseTypeName>
-          </Constraints>
-        </TypeParameter>
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      </Parameters>
-      <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <typeparam name="U">To be added.</typeparam>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_sqrt_ss (__m128 a, __m128 b)
+              SQRTSS xmm, xmm/m32
+            The above native signature does not exist. We provide this additional overload for consistency with the other scalar APIs.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2602,7 +2584,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_storeu_ps (float* mem_addr, __m128 a)
+              MOVUPS m128, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2631,7 +2616,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_store_ps (float* mem_addr, __m128 a)
+              MOVAPS m128, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2660,7 +2648,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_stream_ps (float* mem_addr, __m128 a)
+              MOVNTPS m128, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2685,7 +2676,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_sfence(void)
+              SFENCE
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2714,7 +2708,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_storeh_pi (__m64* mem_addr, __m128 a)
+              MOVHPS m64, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2743,7 +2740,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_storel_pi (__m64* mem_addr, __m128 a)
+              MOVLPS m64, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2772,7 +2772,10 @@
       <Docs>
         <param name="address">To be added.</param>
         <param name="source">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            void _mm_store_ss (float* mem_addr, __m128 a)
+              MOVSS m32, xmm
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2802,7 +2805,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128d _mm_sub_ps (__m128d a, __m128d b)
+              SUBPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2833,7 +2839,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_sub_ss (__m128 a, __m128 b)
+              SUBSS xmm, xmm/m32
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2864,7 +2873,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_unpackhi_ps (__m128 a,  __m128 b)
+              UNPCKHPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2895,7 +2907,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_unpacklo_ps (__m128 a,  __m128 b)
+              UNPCKLPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2926,7 +2941,10 @@
       <Docs>
         <param name="left">To be added.</param>
         <param name="right">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            __m128 _mm_xor_ps (__m128 a,  __m128 b)
+              XORPS xmm, xmm/m128
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
